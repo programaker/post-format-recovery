@@ -1,4 +1,7 @@
 Script to recover my applications and configurations after reinstalling Ubuntu.
+
 It can restore global configurations made in /etc/profile, /etc/apt/sources.list and others, using a .backup file for each global file.
+
 The .backup files contain only the stuff i've changed, not the entire original file content.
+
 It also reinstall applications, programming languages and other things i like.
