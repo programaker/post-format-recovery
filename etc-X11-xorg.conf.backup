@@ -1,0 +1,6 @@
+
+
+### reabilitando o ctrl+alt+backspace ###
+Section "ServerFlags"
+    Option   "DontZap"    "false"
+EndSection

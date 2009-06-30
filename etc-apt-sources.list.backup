@@ -1,0 +1,9 @@
+
+
+### temas daquele blog do francês ###
+deb http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main
+
+### ubuntu tweak ###
+deb http://ppa.launchpad.net/tualatrix/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/tualatrix/ubuntu jaunty main
