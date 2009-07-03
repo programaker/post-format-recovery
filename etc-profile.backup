@@ -13,6 +13,9 @@ IOKE_HOME=~/development/languages/ioke
 ### rebol ###
 REBOL_HOME=~/development/languages/rebol
 
+### scala ###
+SCALA_HOME=~/development/languages/scala
+
 ### scripts globais ###
 SCRIPT_HOME=~/bin
 
@@ -20,5 +23,5 @@ SCRIPT_HOME=~/bin
 RUBY_GEMS=/var/lib/gems/1.8
 
 ### adicionando as novas variáveis ao PATH ###
-PATH=$PATH:$JAVA_HOME/bin:$GROOVY_HOME/bin:$IOKE_HOME/bin:$SCRIPT_HOME:$RUBY_GEMS/bin:$REBOL_HOME/bin
-export JAVA_HOME GROOVY_HOME IOKE_HOME SCRIPT_HOME CLASSPATH RUBY_GEMS PATH REBOL_HOME
+PATH=$PATH:$JAVA_HOME/bin:$GROOVY_HOME/bin:$IOKE_HOME/bin:$SCRIPT_HOME:$RUBY_GEMS/bin:$REBOL_HOME/bin:$SCALA_HOME/bin
+export JAVA_HOME GROOVY_HOME IOKE_HOME SCRIPT_HOME CLASSPATH RUBY_GEMS PATH REBOL_HOME SCALA_HOME
