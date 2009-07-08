@@ -6,15 +6,17 @@ sudo cat etc-profile.backup >> /etc/profile
 # restaurando as configurações do /etc/apt/sources.list
 sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 
+# adicionando chaves: tema de icones e ubntu-tweak
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x1781bd45c4c3275a34bb6aec6e871c4a881574de
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
+
 # update devido à edição anterior do arquivos /etc/apt/sources.list
 sudo apt-get update
 
 # tema de icones padrão atual
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x1781bd45c4c3275a34bb6aec6e871c4a881574de
 sudo aptitude install icon-wild-shine-theme
 
 # ubuntu tweak
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
 sudo apt-get install ubuntu-tweak
 sudo apt-get dist-upgrade
 
