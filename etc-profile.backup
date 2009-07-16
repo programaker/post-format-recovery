@@ -22,6 +22,9 @@ SCRIPT_HOME=~/bin
 ### ruby gems - marretinha pra quando as gems não aparecem no path ###
 RUBY_GEMS=/var/lib/gems/1.8
 
+### grails ###
+GRAILS_HOME=~/development/libraries/grails
+
 ### adicionando as novas variáveis ao PATH ###
-PATH=$PATH:$JAVA_HOME/bin:$GROOVY_HOME/bin:$IOKE_HOME/bin:$SCRIPT_HOME:$RUBY_GEMS/bin:$REBOL_HOME/bin:$SCALA_HOME/bin
+PATH=$PATH:$JAVA_HOME/bin:$GROOVY_HOME/bin:$IOKE_HOME/bin:$SCRIPT_HOME:$RUBY_GEMS/bin:$REBOL_HOME/bin:$SCALA_HOME/bin:$GRAILS_HOME/bin
 export JAVA_HOME GROOVY_HOME IOKE_HOME SCRIPT_HOME CLASSPATH RUBY_GEMS PATH REBOL_HOME SCALA_HOME
