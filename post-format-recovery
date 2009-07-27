@@ -1,33 +1,33 @@
 #! /bin/bash
 
-# restaurando as configurações do /etc/profile
+# configurations in /etc/profile
 sudo cat etc-profile.backup >> /etc/profile
 
-# restaurando as configurações do /etc/apt/sources.list
+# configurations in /etc/apt/sources.list
 sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 
-# adicionando chaves: tema de icones e ubntu-tweak
+# adding keys for icon theme and ubuntu-tweak
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x1781bd45c4c3275a34bb6aec6e871c4a881574de
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
 
-# update devido à edição anterior do arquivos /etc/apt/sources.list
+# update due to the edition of /etc/apt/sources.list
 sudo apt-get update
 
-# tema de icones padrão atual
+# icon theme
 sudo aptitude install icon-wild-shine-theme
 
 # ubuntu tweak
 sudo apt-get install ubuntu-tweak
 sudo apt-get dist-upgrade
 
-# gnome do, parcellite clipboard manager, checkgmail, nautilus-open-terminal
-sudo apt-get install gnome-do parcellite checkgmail nautilus-open-terminal
+# some useful applications
+sudo apt-get install gnome-do parcellite checkgmail nautilus-open-terminal gwibber
 
-# música - codecs gstreamer, mp3gain, easytag
+# multimedia
 sudo apt-get install gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad mp3gain easytag
 
-# arquivos compactados - .rar e .cab
+# packages
 sudo apt-get install rar unrar cabextract
 
-# programação - java, ruby, ssh, git
+# programming
 sudo apt-get install ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
