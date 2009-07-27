@@ -1,9 +1,13 @@
 
 
-### temas daquele blog do francês ###
+### themes from that french guy's blog ###
 deb http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main
 deb-src http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main
 
 ### ubuntu tweak ###
 deb http://ppa.launchpad.net/tualatrix/ubuntu jaunty main
 deb-src http://ppa.launchpad.net/tualatrix/ubuntu jaunty main
+
+### compact nautilus ###
+deb http://ppa.launchpad.net/0-launchpad-mejlamej-nu/ppa/ubuntu jaunty main 
+deb-src http://ppa.launchpad.net/0-launchpad-mejlamej-nu/ppa/ubuntu jaunty main
