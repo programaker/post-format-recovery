@@ -6,10 +6,11 @@ sudo cat etc-profile.backup >> /etc/profile
 # configurations in /etc/apt/sources.list
 sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 
-# adding keys for icon theme, ubuntu-tweak, compact nautilus
+# adding keys for icon theme, ubuntu-tweak, compact nautilus, open office 3.1
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x1781bd45c4c3275a34bb6aec6e871c4a881574de
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x57a9d237d39498ec69fa7a531b5cf8cc9a93a0ab
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 247D1CFF
 
 # update due to the edition of /etc/apt/sources.list
 sudo apt-get update

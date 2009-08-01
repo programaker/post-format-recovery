@@ -1,6 +1,6 @@
 
 
-### reabilitando o ctrl+alt+backspace ###
+### bringing ctrl+alt+backspace back ###
 Section "ServerFlags"
     Option   "DontZap"    "false"
 EndSection

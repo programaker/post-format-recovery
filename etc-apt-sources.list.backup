@@ -11,3 +11,7 @@ deb-src http://ppa.launchpad.net/tualatrix/ubuntu jaunty main
 ### compact nautilus ###
 deb http://ppa.launchpad.net/0-launchpad-mejlamej-nu/ppa/ubuntu jaunty main 
 deb-src http://ppa.launchpad.net/0-launchpad-mejlamej-nu/ppa/ubuntu jaunty main
+
+### open office 3.1 ###
+deb http://ppa.launchpad.net/openoffice-pkgs/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/openoffice-pkgs/ppa/ubuntu jaunty main
