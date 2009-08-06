@@ -9,10 +9,6 @@ sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 # configurations in /etc/sysctl.conf
 sudo cat etc-sysctl.conf.backup >> /etc/sysctl.conf
 
-# applying the swap use reduction 
-# i don't know if it's necessary, since this configuration is already in etc-sysctl.conf.backup, but...
-sudo sysctl -w vm.swappiness=10
-
 # adding keys for icon theme, ubuntu-tweak, compact nautilus, open office 3.1
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x1781bd45c4c3275a34bb6aec6e871c4a881574de
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
