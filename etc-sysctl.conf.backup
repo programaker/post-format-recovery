@@ -1,0 +1,4 @@
+
+
+### swap use reduction ###
+vm.swappiness=10
