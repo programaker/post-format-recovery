@@ -15,3 +15,7 @@ deb-src http://ppa.launchpad.net/0-launchpad-mejlamej-nu/ppa/ubuntu jaunty main
 ### open office 3.1 ###
 deb http://ppa.launchpad.net/openoffice-pkgs/ppa/ubuntu jaunty main
 deb-src http://ppa.launchpad.net/openoffice-pkgs/ppa/ubuntu jaunty main
+
+### emesene 1.5 ###
+deb http://ppa.launchpad.net/bjfs/ppa/ubuntu jaunty main 
+deb-src http://ppa.launchpad.net/bjfs/ppa/ubuntu jaunty main
