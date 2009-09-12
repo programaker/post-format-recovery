@@ -9,12 +9,29 @@ sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 # configurations in /etc/sysctl.conf
 sudo cat etc-sysctl.conf.backup >> /etc/sysctl.conf
 
-# adding keys for icon theme, ubuntu-tweak, compact nautilus, open office 3.1, emesene 1.5
+
+# adding keys for:
+## icon theme
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x1781bd45c4c3275a34bb6aec6e871c4a881574de
+
+## ubuntu-tweak
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
+
+## compact nautilus
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x57a9d237d39498ec69fa7a531b5cf8cc9a93a0ab
+
+## open office 3.1
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 247D1CFF
+
+## emesene 1.5
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com E2314809
+
+## pidgin 2.6.1
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com A1F196A8
+
+## gwibber 2.0
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 72D340A3
+
 
 # update due to the edition of /etc/apt/sources.list
 sudo apt-get update
