@@ -27,3 +27,6 @@ deb-src http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu jaunty main
 ### gwibber 2.0 ###
 deb http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu jaunty main 
 deb-src http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu jaunty main
+
+### gloobus ###
+deb http://ppa.launchpad.net/tualatrix/gloobus/ubuntu jaunty main

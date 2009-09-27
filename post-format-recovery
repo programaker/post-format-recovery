@@ -32,6 +32,9 @@ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com A1F196A8
 ## gwibber 2.0
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 72D340A3
 
+### gloobus
+sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 0624A220
+
 
 # update due to the edition of /etc/apt/sources.list
 sudo apt-get update
