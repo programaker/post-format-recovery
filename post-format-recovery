@@ -43,20 +43,14 @@ sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 0624A220
 sudo aptitude update
 
 
-# icon theme
-sudo aptitude install -y icon-wild-shine-theme
-
-# some useful applications
-sudo aptitude install -y ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal gwibber gloobus-preview
-
-# multimedia
-sudo aptitude install -y gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad mp3gain easytag
-
-# packages
-sudo aptitude install -y rar unrar cabextract
-
-# programming
-sudo aptitude install -y ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
+# and the installation begins!
+sudo aptitude install -y \
+icon-wild-shine-theme \
+ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal gwibber gloobus-preview \
+gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse \
+gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-good mp3gain easytag \
+rar unrar cabextract \
+ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
 
 
 # finally, getting the newest versions
