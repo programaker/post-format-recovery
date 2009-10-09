@@ -32,6 +32,9 @@ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com A1F196A8
 ## gwibber 2.0
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 72D340A3
 
+## gloobus preview
+sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 0624A220
+
 
 # update due to the edition of /etc/apt/sources.list
 sudo apt-get update
@@ -44,7 +47,7 @@ sudo apt-get install ubuntu-tweak
 sudo apt-get dist-upgrade
 
 # some useful applications
-sudo apt-get install gnome-do parcellite checkgmail nautilus-open-terminal gwibber
+sudo apt-get install gnome-do parcellite checkgmail nautilus-open-terminal gwibber gloobus-preview
 
 # multimedia
 sudo apt-get install gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad mp3gain easytag
