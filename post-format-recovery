@@ -9,6 +9,9 @@ sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 # configurations in /etc/sysctl.conf
 sudo cat etc-sysctl.conf.backup >> /etc/sysctl.conf
 
+# configurations in /etc/X11/xorg.conf
+sudo cat etc-X11-xorg.conf.backup >> /etc/X11/xorg.conf
+
 
 # adding keys for:
 ## icon theme
@@ -37,23 +40,24 @@ sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 0624A220
 
 
 # update due to the edition of /etc/apt/sources.list
-sudo apt-get update
+sudo aptitude update
+
 
 # icon theme
-sudo aptitude install icon-wild-shine-theme
-
-# ubuntu tweak
-sudo apt-get install ubuntu-tweak
-sudo apt-get dist-upgrade
+sudo aptitude install -y icon-wild-shine-theme
 
 # some useful applications
-sudo apt-get install gnome-do parcellite checkgmail nautilus-open-terminal gwibber gloobus-preview
+sudo aptitude install -y ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal gwibber gloobus-preview
 
 # multimedia
-sudo apt-get install gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad mp3gain easytag
+sudo aptitude install -y gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad mp3gain easytag
 
 # packages
-sudo apt-get install rar unrar cabextract
+sudo aptitude install -y rar unrar cabextract
 
 # programming
-sudo apt-get install ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
+sudo aptitude install -y ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
+
+
+# finally, getting the newest versions
+sudo aptitude safe-upgrade
