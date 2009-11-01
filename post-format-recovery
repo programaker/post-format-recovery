@@ -9,48 +9,27 @@ sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 # configurations in /etc/sysctl.conf
 sudo cat etc-sysctl.conf.backup >> /etc/sysctl.conf
 
-# configurations in /etc/X11/xorg.conf
-sudo cat etc-X11-xorg.conf.backup >> /etc/X11/xorg.conf
-
 
 # adding keys for:
-## icon theme
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x1781bd45c4c3275a34bb6aec6e871c4a881574de
-
 ## ubuntu-tweak
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
-
-## compact nautilus
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0x57a9d237d39498ec69fa7a531b5cf8cc9a93a0ab
-
-## open office 3.1
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 247D1CFF
-
-## emesene 1.5
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com E2314809
-
-## pidgin 2.6.1
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com A1F196A8
-
-## gwibber 2.0
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 72D340A3
-
-## gloobus preview
-sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 0624A220
-
 
 # update due to the edition of /etc/apt/sources.list
 sudo aptitude update
 
 
 # and the installation begins!
-sudo aptitude install -y \
-icon-wild-shine-theme \
-ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal gwibber gloobus-preview nicotine sound-juicer \
-gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse \
-gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-good mp3gain easytag \
-rar unrar cabextract \
-ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
+## utils
+sudo aptitude install -y ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal nautilus-wallpaper nicotine sound-juicer
+
+## multimedia
+sudo aptitude install -y gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-good mp3gain easytag
+
+## compactors
+sudo aptitude install -y rar unrar cabextract
+
+## development
+sudo aptitude install -y ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
 
 
 # finally, getting the newest versions

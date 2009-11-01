@@ -1,32 +1,5 @@
 
 
-### themes from ZgegBlog ###
-deb http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main
-deb-src http://ppa.launchpad.net/bisigi/ppa/ubuntu jaunty main
-
 ### ubuntu tweak ###
-deb http://ppa.launchpad.net/tualatrix/ubuntu jaunty main
-deb-src http://ppa.launchpad.net/tualatrix/ubuntu jaunty main
-
-### compact nautilus ###
-deb http://ppa.launchpad.net/0-launchpad-mejlamej-nu/ppa/ubuntu jaunty main 
-deb-src http://ppa.launchpad.net/0-launchpad-mejlamej-nu/ppa/ubuntu jaunty main
-
-### open office 3.1 ###
-deb http://ppa.launchpad.net/openoffice-pkgs/ppa/ubuntu jaunty main
-deb-src http://ppa.launchpad.net/openoffice-pkgs/ppa/ubuntu jaunty main
-
-### emesene 1.5 ###
-deb http://ppa.launchpad.net/bjfs/ppa/ubuntu jaunty main 
-deb-src http://ppa.launchpad.net/bjfs/ppa/ubuntu jaunty main
-
-### pidgin 2.6.1 ###
-deb http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu jaunty main 
-deb-src http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu jaunty main
-
-### gwibber 2.0 ###
-deb http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu jaunty main 
-deb-src http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu jaunty main
-
-### gloobus preview ###
-deb http://ppa.launchpad.net/tualatrix/gloobus/ubuntu jaunty main
+deb http://ppa.launchpad.net/tualatrix/ubuntu karmic main
+deb-src http://ppa.launchpad.net/tualatrix/ubuntu karmic main
