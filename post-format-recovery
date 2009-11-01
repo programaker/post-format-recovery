@@ -20,10 +20,13 @@ sudo aptitude update
 
 # and the installation begins!
 ## utils
-sudo aptitude install -y ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal nautilus-wallpaper nicotine sound-juicer
+sudo aptitude install -y ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal nautilus-wallpaper nicotine sound-juicer mp3gain easytag
+
+## messengers
+sudo aptitude install -y emesene pidgin amsn
 
 ## multimedia
-sudo aptitude install -y gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-good mp3gain easytag
+sudo aptitude install -y gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-good
 
 ## compactors
 sudo aptitude install -y rar unrar cabextract
