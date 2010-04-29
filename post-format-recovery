@@ -10,29 +10,31 @@ sudo cat etc-apt-sources.list.backup >> /etc/apt/sources.list
 sudo cat etc-sysctl.conf.backup >> /etc/sysctl.conf
 
 
-# adding keys for:
-## ubuntu-tweak
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
+# ubuntu tweak repository
+sudo add-apt-repository ppa:tualatrix/ppa
 
-# update due to the edition of /etc/apt/sources.list
+# update due to the edition of /etc/apt/sources.list and the use of add-apt-repository command
 sudo aptitude update
 
 
 # and the installation begins!
 ## utils
-sudo aptitude install -y ubuntu-tweak gnome-do parcellite checkgmail nautilus-open-terminal nautilus-wallpaper nicotine sound-juicer mp3gain easytag
+sudo aptitude install -y ubuntu-tweak gnome-do parcellite checkgmail nicotine sound-juicer mp3gain easytag guake
+
+## nautilus plugins
+nautilus-open-terminal nautilus-wallpaper nautilus-script-audio-convert nautilus-image-converter
 
 ## messengers
-sudo aptitude install -y emesene pidgin amsn
+sudo aptitude install -y emesene pidgin
 
 ## multimedia
-sudo aptitude install -y gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-good
+sudo aptitude install -y gstreamer0.10-ffmpeg gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-good vlc
 
 ## compactors
 sudo aptitude install -y rar unrar cabextract
 
 ## development
-sudo aptitude install -y ruby irb ri rubygems ssh git-core sun-java6-jdk sun-java6-plugin
+sudo aptitude install -y ruby irb ri rubygems ssh git-core
 
 
 # finally, getting the newest versions
